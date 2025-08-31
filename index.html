@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick trip - Luxury Hotel Booking</title>
+    <meta name="description" content="Book cheap, budget and luxury hotels with OJO trip. Enjoy safe and affordable stay in premium destinations.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">Quick Trip</div>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <h1 class="logo">Quick <span class="logo-accent">Trip</span></h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active" data-page="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#amenities" class="nav-link" data-scroll="amenities">Amenities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link" data-scroll="gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cities" class="nav-link" data-scroll="cities">Cities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" data-page="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#policies" class="nav-link" data-page="policies">Policies</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Page -->
+        <div id="home-page" class="page active">
+            <!-- Hero Carousel -->
+            <section class="hero-carousel" id="hero">
+                <div class="carousel-container">
+                    <div class="carousel-slide active" style="background-image: url('assets/underwater.jpeg')">
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-content">
+                            <h1 class="hero-title"> &nbsp; &nbsp; Tropical Paradise</h1>
+                            <p class="hero-subtitle">&nbsp;&nbsp; &nbsp;Luxury beachfront resorts with pristine waters</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background-image: url('assets/hero-mountain.jpeg')">
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-content">
+                            <h1 class="hero-title">&nbsp; &nbsp;Mountain Retreat</h1>
+                            <p class="hero-subtitle">&nbsp;&nbsp; &nbsp;Serene mountain lodges with stunning views</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background-image: url('assets/hero-hotel_terrase.jpeg')">
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-content">
+                            <h1 class="hero-title">&nbsp; &nbsp;City Skyline</h1>
+                            <p class="hero-subtitle">&nbsp;&nbsp; &nbsp;Modern hotels in vibrant city centers</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background-image: url('assets/sebastien-gabriel--IMlv9Jlb24-unsplash.jpg')">
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-content">
+                            <h1 class="hero-title">&nbsp; &nbsp;Sunset Views</h1>
+                            <p class="hero-subtitle">&nbsp; &nbsp;&nbsp;Romantic dining with spectacular sunsets</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background-image: url('assets/hero-trees-5.jpeg')">
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-content">
+                            <h1 class="hero-title">&nbsp; &nbsp;Forest Lodge</h1>
+                            <p class="hero-subtitle">&nbsp;&nbsp; &nbsp;Cozy retreats in pristine nature</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-main-content">
+                    <div class="container">
+                        <h1 class="main-title">Enjoy Safe and Affordable Stay</h1>
+                        <p class="main-subtitle">Book Cheap, Budget and Luxury Hotels</p>
+                        <button class="btn btn--primary btn--lg cta-button">Book Your Room</button>
+                    </div>
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                </div>
+            </section>
+
+            <!-- Amenities Section -->
+            <section id="amenities" class="amenities section">
+                <div class="container">
+                    <h2 class="section-title">Premium Amenities</h2>
+                    <p class="section-subtitle">Experience luxury and comfort with our world-class facilities</p>
+                    <div class="amenities-grid">
+                        <div class="amenity-card">
+                            <div class="amenity-icon">📶</div>
+                            <h3 class="amenity-title">Free WiFi</h3>
+                            <p class="amenity-description">High-speed internet throughout the property</p>
+                        </div>
+                        <div class="amenity-card">
+                            <div class="amenity-icon">🏊</div>
+                            <h3 class="amenity-title">Swimming Pool</h3>
+                            <p class="amenity-description">Infinity pool with stunning views</p>
+                        </div>
+                        <div class="amenity-card">
+                            <div class="amenity-icon">🅿️</div>
+                            <h3 class="amenity-title">Free Parking</h3>
+                            <p class="amenity-description">Secure parking for all guests</p>
+                        </div>
+                        <div class="amenity-card">
+                            <div class="amenity-icon">🎮</div>
+                            <h3 class="amenity-title">Game Zone</h3>
+                            <p class="amenity-description">Entertainment center with games and activities</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cities Section -->
+            <section id="cities" class="cities section">
+                <div class="container">
+                    <h2 class="section-title">Cities We Serve</h2>
+                    <p class="section-subtitle">Discover amazing destinations across India</p>
+                    <div class="cities-grid">
+
+                    <div class="city-card">
+                        <div class="city-image">
+                            <img src="assets/varanasi.jpg" alt="Varanasi">
+                            <div class="city-overlay">
+                                <h3 class="city-name">Varanasi</h3>
+                            </div>
+                        </div>
+                        <div class="city-content">
+                            <p class="city-description">Experience the spiritual heart of India, where ancient ghats line the sacred Ganges River and timeless rituals unfold daily.</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <div class="city-image">
+                            <img src="assets/puri.jpg" alt="Puri">
+                            <div class="city-overlay">
+                                <h3 class="city-name">Puri</h3>
+                            </div>
+                        </div>
+                        <div class="city-content">
+                            <p class="city-description">Visit the famous Jagannath Temple and relax on the golden beaches of this revered coastal pilgrimage town in Odisha.</p>
+                        </div>
+                    </div>
+
+                    <div class="city-card">
+                        <div class="city-image">
+                            <img src="assets/Mahakaleshwar_Temple,_Ujjain.jpg" alt="Ujjain">
+                            <div class="city-overlay">
+                                <h3 class="city-name">Ujjain</h3>
+                            </div>
+                        </div>
+                        <div class="city-content">
+                            <p class="city-description">Home to the Mahakaleshwar Jyotirlinga, Ujjain is a sacred city on the Shipra River, famous for the grand Kumbh Mela.</p>
+                        </div>
+                    </div>
+
+                    <div class="city-card">
+                        <div class="city-image">
+                            <img src="assets/ram-mandir-ayothya.jpg" alt="Ayodhya">
+                            <div class="city-overlay">
+                                <h3 class="city-name">Ayodhya</h3>
+                            </div>
+                        </div>
+                        <div class="city-content">
+                            <p class="city-description">Explore the legendary birthplace of Lord Rama, a city rich in history and devotion, highlighted by the magnificent Ram Mandir.</p>
+                        </div>
+                    </div>
+
+                    <div class="city-card">
+                        <div class="city-image">
+                            <img src="assets/Har_Ki_Pauri,_Haridwar.jpg" alt="Haridwar">
+                            <div class="city-overlay">
+                                <h3 class="city-name">Haridwar</h3>
+                            </div>
+                        </div>
+                        <div class="city-content">
+                            <p class="city-description">Witness the mesmerizing Ganga Aarti at Har Ki Pauri in this holy gateway city where the Ganges enters the plains.</p>
+                        </div>
+                    </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            <section id="gallery" class="gallery section">
+                <div class="container">
+                    <h2 class="section-title">Hotel Gallery</h2>
+                    <p class="section-subtitle">Take a virtual tour of our beautiful spaces</p>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="assets/gallary-1.jpeg" alt="Deluxe Room">
+                            <div class="gallery-overlay">
+                                <h4>Deluxe Room</h4>
+                                <p>Elegant rooms with modern amenities and city views</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/gallary-2.jpeg" alt="Executive Suite">
+                            <div class="gallery-overlay">
+                                <h4>Executive Suite</h4>
+                                <p>Spacious suites with separate living areas</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/gallary-3.jpeg" alt="Family Room">
+                            <div class="gallery-overlay">
+                                <h4>Family Room</h4>
+                                <p>Perfect for families with multiple beds</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/gallary-4.jpeg" alt="Luxury Suite">
+                            <div class="gallery-overlay">
+                                <h4>Luxury Suite</h4>
+                                <p>Premium suites with panoramic views</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/gallary-5.png" alt="Pool Area">
+                            <div class="gallery-overlay">
+                                <h4>Pool Area</h4>
+                                <p>Relaxing poolside with tropical atmosphere</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/gallary-6.png" alt="Hotel Lobby">
+                            <div class="gallery-overlay">
+                                <h4>Hotel Lobby</h4>
+                                <p>Luxurious lobby with modern design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Preview -->
+            <section class="contact-preview section">
+                <div class="container">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="contact-preview-grid">
+                        <div class="contact-preview-card">
+                            <div class="contact-icon">📧</div>
+                            <h4>Email Us</h4>
+                            <p>info@thequicktrip.com</p>
+                        </div>
+                        <div class="contact-preview-card">
+                            <div class="contact-icon">📞</div>
+                            <h4>Call Us</h4>
+                            <p>+91-9508342672</p>
+                        </div>
+                        <div class="contact-preview-card">
+                            <div class="contact-icon">📍</div>
+                            <h4>Head Office</h4>
+                            <p>Rani Talab Saba Road, Bhagalpur</p>
+                        </div>
+                    </div>
+                    <button class="btn btn--primary" data-page="contact">Full Contact Information</button>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Page -->
+        <div id="about-page" class="page">
+            <section class="about-hero">
+                <div class="about-hero-content">
+                    <img src="assets/now.png" alt="Luxury Hotel" class="about-hero-image">
+                    <div class="container">
+                        <h1 class="about-title">The Best Place to Stay</h1>
+                        <p class="about-description">Experience unparalleled luxury and comfort at the Quick Trip hotels. We pride ourselves on providing exceptional hospitality that exceeds your expectations.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-content section">
+                <div class="container">
+                    <div class="about-features">
+                        <h2>Why Choose LUX trip?</h2>
+                        <ul class="feature-list">
+                            <li>✨ Luxury accommodations with modern amenities</li>
+                            <li>🌟 Exceptional customer service and hospitality</li>
+                            <li>🏨 Strategic locations in prime city areas</li>
+                            <li>💰 Competitive pricing for budget to luxury stays</li>
+                            <li>🛡️ Safe and secure environment for all guests</li>
+                            <li>🍴 Fine dining restaurants and room service</li>
+                            <li>🚗 Complimentary parking and airport transfers</li>
+                            <li>📶 High-speed WiFi throughout the property</li>
+                        </ul>
+                    </div>
+
+                    <div class="rooms-showcase">
+                        <h2>Discover Our Rooms</h2>
+                        <div class="rooms-grid">
+                            <div class="room-card">
+                                <img src="assets/delux_room.jpeg" alt="Deluxe Room">
+                                <div class="room-info">
+                                    <h4>Deluxe Room</h4>
+                                    <p>Elegant rooms with modern amenities and city views</p>
+                                </div>
+                            </div>
+                            <div class="room-card">
+                                <img src="assets/exclusive_suit.jpeg" alt="Executive Suite">
+                                <div class="room-info">
+                                    <h4>Executive Suite</h4>
+                                    <p>Spacious suites with separate living areas</p>
+                                </div>
+                            </div>
+                            <div class="room-card">
+                                <img src="assets/3.jpeg" alt="Luxury Suite">
+                                <div class="room-info">
+                                    <h4>Luxury Suite</h4>
+                                    <p>Premium suites with panoramic views</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact-page" class="page">
+            <section class="contact-hero section">
+                <div class="container">
+                    <h1 class="section-title">Contact Us</h1>
+                    <p class="section-subtitle">Get in touch with our team for reservations and inquiries</p>
+                </div>
+            </section>
+
+            <section class="contact-content section">
+                <div class="container">
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <div class="contact-card">
+                                <h3>Head Office</h3>
+                                <p>Rani Talab Saba Road,<br>Bhagalpur, Bihar, 813210</p>
+                            </div>
+                            <div class="contact-card">
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@thequicktrip.com">info@thequicktrip.com</a></p>
+                            </div>
+                            <div class="contact-card">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+2210000000">+91-9508342672</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-container">
+                            <form class="contact-form" id="contact-form"  
+                             action="https://formspree.io/f/xnnbplov"
+                              method="POST"
+                            >
+                                <h3>Send us a message</h3>
+                                <div class="form-group">
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                    <label for="name" class="floating-label">Full Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                    <label for="email" class="floating-label">Email Address</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="phone" name="phone" class="form-control">
+                                    <label for="phone" class="floating-label">Phone Number (Optional)</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="subject" name="subject" class="form-control" required>
+                                    <label for="subject" class="floating-label">Subject</label>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                                    <label for="message" class="floating-label">Message</label>
+                                </div>
+                                <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Policies Page -->
+        <div id="policies-page" class="page">
+            <section class="policies-hero section">
+                <div class="container">
+                    <h1 class="section-title">Hotel Policies</h1>
+                    <p class="section-subtitle">Please read our terms and conditions carefully</p>
+                </div>
+            </section>
+
+            <section class="policies-content section">
+                <div class="container">
+                    <div class="policy-section">
+                        <h2>Check-in & Check-out</h2>
+                        <ul>
+                            <li>Check-in time: 2:00 PM</li>
+                            <li>Check-out time: 12:00 PM</li>
+                            <li>Early check-in and late check-out subject to availability</li>
+                            <li>Valid government-issued ID required at check-in</li>
+                        </ul>
+                    </div>
+
+                    <div class="policy-section">
+                        <h2>Cancellation Policy</h2>
+                        <ul>
+                            <li>Free cancellation up to 24 hours before arrival</li>
+                            <li>Cancellations within 24 hours will be charged one night's stay</li>
+                            <li>No-show bookings will be charged the full amount</li>
+                            <li>Special rates and packages may have different cancellation terms</li>
+                        </ul>
+                    </div>
+
+                    <div class="policy-section">
+                        <h2>Payment Terms</h2>
+                        <ul>
+                            <li>All major credit cards accepted</li>
+                            <li>Cash payments accepted in local currency</li>
+                            <li>Advance payment may be required for certain bookings</li>
+                            <li>Additional charges for extra services will be billed separately</li>
+                        </ul>
+                    </div>
+
+                    <div class="policy-section">
+                        <h2>Guest Policies</h2>
+                        <ul>
+                            <li>Maximum occupancy as per room type</li>
+                            <li>Smoking prohibited in all rooms and indoor areas</li>
+                            <li>Pets allowed with prior approval and additional charges</li>
+                            <li>Quiet hours: 10:00 PM to 7:00 AM</li>
+                            <li>Guests responsible for any damages to hotel property</li>
+                        </ul>
+                    </div>
+
+                    <div class="policy-section">
+                        <h2>Amenities & Services</h2>
+                        <ul>
+                            <li>Complimentary WiFi throughout the property</li>
+                            <li>Free parking subject to availability</li>
+                            <li>Swimming pool hours: 6:00 AM to 10:00 PM</li>
+                            <li>Room service available 24/7</li>
+                            <li>Laundry service available with additional charges</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-title logo">Quick <span class="logo-accent">Trip</span></h3>
+                    <p class="footer-description">Book cheap, budget, and luxury hotels. Enjoy a safe and affordable stay in premium destinations with exceptional hospitality.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="#home" class="footer-link" data-page="home">Home</a></li>
+                        <li><a href="#about" class="footer-link" data-page="about">About Us</a></li>
+                        <li><a href="#gallery" class="footer-link" data-scroll="gallery">Gallery</a></li>
+                        <li><a href="#cities" class="footer-link" data-scroll="cities">Cities</a></li>
+                        <li><a href="#contact" class="footer-link" data-page="contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-list">
+                        <li>📍 Rani talab Saba Road, Bhadalpur</li>
+                        <li>📞 <a href="tel:+2210000000" class="footer-link">+91-9508342672</a></li>
+                        <li>📧 <a href="mailto:info@ojotrip.com" class="footer-link">info@thequicktrip.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-title">Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">FB</a>
+                        <a href="#" class="social-link">IN</a>
+                        <a href="#" class="social-link">TW</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 the Quick Trip. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919508342672" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" style="width:45px;height:45px;">
+</a>
+
+    <script src="app.js"></script>
+</body>
+</html>
