@@ -295,6 +295,15 @@
   --color-error-rgb: var(--color-red-500-rgb);
   --color-warning-rgb: var(--color-orange-500-rgb);
   --color-info-rgb: var(--color-slate-500-rgb);
+  .hero-main-content .main-title,
+    .hero-main-content .main-subtitle {
+        color: white;
+    }
+
+    /* Make City Section Text White in Light Mode */
+    .city-card .city-name {
+        color: white;
+    }
 }
 
 /* Base styles */
