@@ -635,11 +635,11 @@ document.head.appendChild(style);
 // Preload images
 function preloadImages() {
     const images = [
-        'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&h=800&fit=crop',
-        'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop',
-        'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&h=800&fit=crop',
-        'https://images.unsplash.com/photo-1520637836862-4d197d17c431?w=1200&h=800&fit=crop',
-        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&h=800&fit=crop'
+        'assets/underwater.jpeg', // Use your local file paths
+        'assets/hero-mountain.jpeg',
+        'assets/hero-hotel_terrase.jpeg',
+        'assets/sebastien-gabriel--IMlv9Jlb24-unsplash.jpg',
+        'assets/hero-trees-5.jpeg'
     ];
     
     images.forEach(src => {
