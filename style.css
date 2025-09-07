@@ -1941,8 +1941,14 @@ textarea + .floating-label {
 
 /* Styling for the new SVG logo in the header */
 .logo-img {
-    height: 35px; /* Adjust this value to make the logo bigger or smaller */
+    height: 42px; /* Adjust this value to make the logo bigger or smaller */
     width: auto;  /* This keeps the logo's proportions correct */
     vertical-align: middle; /* Helps align the logo nicely with nav links */
     border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .logo-img {
+        height: 32px; /* Smaller size for mobile */
+    }
 }
