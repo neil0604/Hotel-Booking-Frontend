@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradPin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fd7e14;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc107;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path d="M32 0C18.72 0 8 10.72 8 24C8 44 32 64 32 64C32 64 56 44 56 24C56 10.72 45.28 0 32 0ZM32 32C27.58 32 24 28.42 24 24C24 19.58 27.58 16 32 16C36.42 16 40 19.58 40 24C40 28.42 36.42 32 32 32Z" fill="url(#gradPin)"/>
+  <circle cx="32" cy="24" r="8" fill="white"/>
+</svg>

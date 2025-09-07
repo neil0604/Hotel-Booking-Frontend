@@ -662,4 +662,4 @@ window.addEventListener('unhandledrejection', function(e) {
     e.preventDefault();
 });
 
-console.log('OJO trip website loaded successfully! 🏨✨');
+console.log('Quick trip website loaded successfully! 🏨✨');

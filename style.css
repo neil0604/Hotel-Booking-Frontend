@@ -1938,3 +1938,11 @@ textarea + .floating-label {
     border-top: 1px solid #333; /* A subtle separator line */
     color: #777;
 }
+
+/* Styling for the new SVG logo in the header */
+.logo-img {
+    height: 45px; /* Adjust this value to make the logo bigger or smaller */
+    width: auto;  /* This keeps the logo's proportions correct */
+    vertical-align: middle; /* Helps align the logo nicely with nav links */
+    border-radius: 50%;
+}
